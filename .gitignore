@@ -1,0 +1,26 @@
+# Dataset
+dataset/
+
+# Virtual Environment
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Temporary uploaded videos
+uploads/
+
+# Trained models
+*.keras
+*.h5
+
+# Operating System
+.DS_Store
+Thumbs.db
