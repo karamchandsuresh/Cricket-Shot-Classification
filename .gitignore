@@ -24,3 +24,6 @@ uploads/
 # Operating System
 .DS_Store
 Thumbs.db
+
+# MediaPipe downloaded model
+pose_estimation/models/
