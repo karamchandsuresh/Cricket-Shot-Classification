@@ -1,32 +1,96 @@
+# ==========================
 # Dataset
+# ==========================
+
 dataset/
 
-# Virtual Environment
-venv/
 
+# ==========================
+# Virtual Environment
+# ==========================
+
+venv/
+.venv/
+
+
+# ==========================
 # Python
+# ==========================
+
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
 
+
+# ==========================
 # Jupyter
+# ==========================
+
 .ipynb_checkpoints/
 
+
+# ==========================
 # VS Code
+# ==========================
+
 .vscode/
 
-# Temporary uploaded videos
+
+# ==========================
+# Environment Variables
+# ==========================
+
+.env
+*.env
+
+
+# ==========================
+# Temporary Uploaded Videos
+# ==========================
+
 uploads/
+backend/uploads/
 
-# Trained models
-*.keras
-*.h5
 
-# Operating System
+# ==========================
+# MediaPipe Downloaded Model
+# ==========================
+
+pose_estimation/models/
+
+
+# ==========================
+# Frontend
+# ==========================
+
+frontend/node_modules/
+frontend/dist/
+
+
+# ==========================
+# Precomputed MobileNetV2 Feature Arrays
+# ==========================
+
+features/mobilenetv2/*.npy
+
+
+# ==========================
+# Logs and Cache
+# ==========================
+
+*.log
+.pytest_cache/
+.cache/
+
+
+# ==========================
+# Operating System Files
+# ==========================
+
 .DS_Store
 Thumbs.db
 
-# MediaPipe downloaded model
-pose_estimation/models/
 
-# Temporary backend uploads
-backend/uploads/
+# Notebook-generated model files
+notebooks/models/
