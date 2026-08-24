@@ -27,3 +27,6 @@ Thumbs.db
 
 # MediaPipe downloaded model
 pose_estimation/models/
+
+# Temporary backend uploads
+backend/uploads/
