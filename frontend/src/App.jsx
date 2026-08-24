@@ -1,7 +1,11 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL = "https://cricket-shot-classification.onrender.com/analyze";
+const API_URL =
+  window.location.hostname === "localhost" ||
+  window.location.hostname === "127.0.0.1"
+    ? "http://127.0.0.1:5000/analyze"
+    : "https://cricket-shot-classification.onrender.com/analyze";
 
 const MODEL_STATS = [
   {
